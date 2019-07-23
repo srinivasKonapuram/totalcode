@@ -1,0 +1,14 @@
+package com.imaginea.corridortask.utilites;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class TestBaseSetup {
+
+	WebDriver driver;
+	
+	@Test
+	public void asdf() {
+		
+	}
+}

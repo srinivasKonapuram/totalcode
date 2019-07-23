@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="postLogin"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="package com.java.generics;"/>
+			<item value="By.tagName(&quot;a&quot;)"/>
+			<item value="package com.imaginea.practise;"/>
+			<item value="postLogin"/>
+			<item value="user already  exits"/>
+			<item value="feed"/>
+			<item value="usersname"/>
+			<item value="formart"/>
+			<item value="/**"/>
+			<item value="private"/>
+			<item value="Public"/>
+			<item value="System.out.println(&quot; data contains :&quot;+data);"/>
+			<item value="String"/>
+			<item value="Stream"/>
+			<item value="stringstream"/>
+		</list>
+		<list key="replacehistory">
+			<item value="public"/>
+			<item value="private"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="862"/>
+		<item key="DIALOG_Y_ORIGIN" value="140"/>
+		<item key="DIALOG_WIDTH" value="348"/>
+		<item key="DIALOG_HEIGHT" value="452"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="376"/>
+		<item key="DIALOG_Y_ORIGIN" value="243"/>
+	</section>
+</section>

@@ -1,0 +1,8 @@
+package com.imaginea.corridortask.utilites;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestBaseSetup {
+
+	WebDriver driver;
+}

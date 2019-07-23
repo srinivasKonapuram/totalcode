@@ -1,0 +1,9 @@
+package com.imaginea.corridortask.utility;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestBaseSetup {
+
+	//WebDriver driver;
+//	String nodeURL;
+}

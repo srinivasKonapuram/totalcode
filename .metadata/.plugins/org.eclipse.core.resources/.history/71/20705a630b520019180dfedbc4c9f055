@@ -1,0 +1,30 @@
+package com.java.generics;
+
+public class GenDemo<String> {
+
+	String ob;
+
+	public GenDemo(String ob) {
+		// super();
+		this.ob = ob;
+	}
+
+	String getob() {
+
+		return ob;
+
+	}
+
+	void showType() {
+		System.out.println("type T is " + ob.getClass().getName());
+	}
+}
+
+class Demo {
+	public static void main(String[] args) {
+		GenDemo<String> myobj;
+myobj =new GenDemo<String>("srinu");
+myobj.showType();
+System.out.println("value of T is :"+ myobj);
+	}
+}

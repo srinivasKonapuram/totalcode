@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;dataFile.properties&apos; to &apos;corridorTask&apos;&#x0A;- Original project: &apos;Generic&apos;&#x0A;- Destination element: &apos;corridorTask&apos;&#x0A;- Original element: &apos;dataFile.properties&apos;" description="Copy file" element1="dataFile.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1560234674208" target="/CorridorTask/src/test/java/com/imaginea/corridorTask" units="0" version="1.0"/>
+</session>
