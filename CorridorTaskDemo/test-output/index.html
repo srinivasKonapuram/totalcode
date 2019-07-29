@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-generic">
+              <span class="suite-name border-passed">generic</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-generic">
+                    <span>testngFile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-generic">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-generic">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-generic">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-generic">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-generic">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-generic">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-generic" class="hide-methods passed suite-generic"> (hide)</a> <!-- hide-methods passed suite-generic -->
+                      <a href="#" panel-name="suite-generic" class="show-methods passed suite-generic"> (show)</a> <!-- show-methods passed suite-generic -->
+                    </span>
+                    <div class="method-list-content passed suite-generic">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-generic" title="com.imaginea.corridortaskJen.CorridorFeatures" hash-for-method="HolidayList">HolidayList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-generic" title="com.imaginea.corridortaskJen.CorridorFeatures" hash-for-method="TripToPlan">TripToPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-generic" title="com.imaginea.corridortaskJen.CorridorFeatures" hash-for-method="letsMeet">letsMeet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-generic" title="com.imaginea.corridortaskJen.CorridorFeatures" hash-for-method="mainDriverForChrome(chrome)">mainDriverForChrome(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-generic" title="com.imaginea.corridortaskJen.CorridorFeatures" hash-for-method="phoneBook">phoneBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-generic" title="com.imaginea.corridortaskJen.CorridorFeatures" hash-for-method="profileLaunch">profileLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-generic -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-generic" class="panel generic">
+          <div class="suite-generic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.imaginea.corridortaskJen.CorridorFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HolidayList">
+                  </a> <!-- HolidayList -->
+                  <span class="method-name">HolidayList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TripToPlan">
+                  </a> <!-- TripToPlan -->
+                  <span class="method-name">TripToPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="letsMeet">
+                  </a> <!-- letsMeet -->
+                  <span class="method-name">letsMeet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mainDriverForChrome(chrome)">
+                  </a> <!-- mainDriverForChrome(chrome) -->
+                  <span class="method-name">mainDriverForChrome</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phoneBook">
+                  </a> <!-- phoneBook -->
+                  <span class="method-name">phoneBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="profileLaunch">
+                  </a> <!-- profileLaunch -->
+                  <span class="method-name">profileLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-generic-class-passed -->
+        </div> <!-- panel generic -->
+        <div panel-name="test-xml-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/srinivask/eclipse-workspace/CorridorTaskDemo/src/test/java/com/imaginea/corridortaskJen/testngFile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; name=&quot;generic&quot;&gt;
+  &lt;parameter name=&quot;MyBrowser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.imaginea.corridortaskJen.MyTransform&quot;/&gt;
+    &lt;listener class-name=&quot;com.imaginea.corridortaskJen.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;faceBook&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.imaginea.corridortaskJen.CorridorFeatures&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- faceBook --&gt;
+&lt;/suite&gt; &lt;!-- generic --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for generic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">faceBook (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for generic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for generic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_generic');
+function tableData_generic() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'phoneBook')
+data.setCell(0, 2, 'com.imaginea.corridortaskJen.CorridorFeatures')
+data.setCell(0, 3, 12779);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'HolidayList')
+data.setCell(1, 2, 'com.imaginea.corridortaskJen.CorridorFeatures')
+data.setCell(1, 3, 7012);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TripToPlan')
+data.setCell(2, 2, 'com.imaginea.corridortaskJen.CorridorFeatures')
+data.setCell(2, 3, 5084);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'profileLaunch')
+data.setCell(3, 2, 'com.imaginea.corridortaskJen.CorridorFeatures')
+data.setCell(3, 3, 4771);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'mainDriverForChrome')
+data.setCell(4, 2, 'com.imaginea.corridortaskJen.CorridorFeatures')
+data.setCell(4, 3, 4462);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'letsMeet')
+data.setCell(5, 2, 'com.imaginea.corridortaskJen.CorridorFeatures')
+data.setCell(5, 3, 4292);
+window.suiteTableData['generic']= { tableData: data, tableDiv: 'times-div-generic'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-generic">
+              </div> <!-- times-div-generic -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for generic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-generic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.imaginea.corridortaskJen.CorridorFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">propertyFileload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mainDriverForChrome(chrome)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=mainDriverForChrome status=SUCCESS method=BaseCode.mainDriverForChrome(java.lang.St...)</span>
+                <span class="method-start">4469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HolidayList</span>
+                <span class="method-start">4470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">propertyFileload</span>
+                <span class="method-start">4470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=HolidayList status=SUCCESS method=CorridorFeatures.HolidayList()[pri:0, instance:co...)</span>
+                <span class="method-start">11484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">letsMeet</span>
+                <span class="method-start">11485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">propertyFileload</span>
+                <span class="method-start">11485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=letsMeet status=SUCCESS method=CorridorFeatures.letsMeet()[pri:0, instance:com.imag...)</span>
+                <span class="method-start">15779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">propertyFileload</span>
+                <span class="method-start">15780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">profileLaunch</span>
+                <span class="method-start">15781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=profileLaunch status=SUCCESS method=CorridorFeatures.profileLaunch()[pri:0, instanc...)</span>
+                <span class="method-start">20553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TripToPlan</span>
+                <span class="method-start">20554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">propertyFileload</span>
+                <span class="method-start">20554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TripToPlan status=SUCCESS method=CorridorFeatures.TripToPlan()[pri:0, instance:com....)</span>
+                <span class="method-start">25640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">propertyFileload</span>
+                <span class="method-start">25647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phoneBook</span>
+                <span class="method-start">25648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=phoneBook status=SUCCESS method=CorridorFeatures.phoneBook()[pri:0, instance:com.im...)</span>
+                <span class="method-start">38428 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

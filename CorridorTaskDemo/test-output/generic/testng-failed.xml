@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [generic]">
+  <parameter name="MyBrowser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.imaginea.corridortaskJen.MyTransform"/>
+    <listener class-name="com.imaginea.corridortaskJen.ExtentReporterNG"/>
+  </listeners>
+  <test name="faceBook(failed)">
+    <classes>
+      <class name="com.imaginea.corridortaskJen.CorridorFeatures">
+        <methods>
+          <include name="letsMeet"/>
+          <include name="HolidayList"/>
+          <include name="phoneBook"/>
+          <include name="profileLaunch"/>
+          <include name="propertyFileload"/>
+          <include name="mainDriverForChrome"/>
+          <include name="TripToPlan"/>
+        </methods>
+      </class> <!-- com.imaginea.corridortaskJen.CorridorFeatures -->
+    </classes>
+  </test> <!-- faceBook(failed) -->
+</suite> <!-- Failed suite [generic] -->

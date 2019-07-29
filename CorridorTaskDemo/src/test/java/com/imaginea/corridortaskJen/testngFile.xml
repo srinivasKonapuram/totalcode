@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="generic" preserve-order="true" thread-count="3"
+	parallel="Test">
+	<parameter name="MyBrowser" value="chrome" />
+	<listeners> 
+	<listener class-name="com.imaginea.corridortaskJen.MyTransform"/>
+	<listener class-name="com.imaginea.corridortaskJen.ExtentReporterNG"/>
+	</listeners>
+	
+	<test name="faceBook">
+		<classes>
+			<class name="com.imaginea.corridortaskJen.CorridorFeatures" >
+			</class>
+		</classes>
+	</test>
+
+</suite>

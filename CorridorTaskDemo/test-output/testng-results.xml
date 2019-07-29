@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="generic" duration-ms="38440" started-at="2019-07-29T09:36:32Z" finished-at="2019-07-29T09:37:10Z">
+    <groups>
+    </groups>
+    <test name="faceBook" duration-ms="38440" started-at="2019-07-29T09:36:32Z" finished-at="2019-07-29T09:37:10Z">
+      <class name="com.imaginea.corridortaskJen.CorridorFeatures">
+        <test-method status="PASS" signature="propertyFileload()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="propertyFileload" is-config="true" duration-ms="5" started-at="2019-07-29T15:06:32Z" finished-at="2019-07-29T15:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyFileload -->
+        <test-method status="PASS" signature="mainDriverForChrome(java.lang.String)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="mainDriverForChrome" duration-ms="4462" started-at="2019-07-29T15:06:32Z" finished-at="2019-07-29T15:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainDriverForChrome -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:36Z" finished-at="2019-07-29T15:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainDriverForChrome status=SUCCESS method=BaseCode.mainDriverForChrome(java.lang.String)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="HolidayList()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="HolidayList" duration-ms="7012" started-at="2019-07-29T15:06:36Z" finished-at="2019-07-29T15:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HolidayList -->
+        <test-method status="PASS" signature="propertyFileload()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="propertyFileload" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:36Z" finished-at="2019-07-29T15:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyFileload -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:43Z" finished-at="2019-07-29T15:06:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HolidayList status=SUCCESS method=CorridorFeatures.HolidayList()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="propertyFileload()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="propertyFileload" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:43Z" finished-at="2019-07-29T15:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyFileload -->
+        <test-method status="PASS" signature="letsMeet()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="letsMeet" duration-ms="4292" started-at="2019-07-29T15:06:43Z" finished-at="2019-07-29T15:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letsMeet -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:47Z" finished-at="2019-07-29T15:06:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=letsMeet status=SUCCESS method=CorridorFeatures.letsMeet()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="propertyFileload()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="propertyFileload" is-config="true" duration-ms="1" started-at="2019-07-29T15:06:47Z" finished-at="2019-07-29T15:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyFileload -->
+        <test-method status="PASS" signature="profileLaunch()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="profileLaunch" duration-ms="4771" started-at="2019-07-29T15:06:47Z" finished-at="2019-07-29T15:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileLaunch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:52Z" finished-at="2019-07-29T15:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profileLaunch status=SUCCESS method=CorridorFeatures.profileLaunch()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TripToPlan()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="TripToPlan" duration-ms="5084" started-at="2019-07-29T15:06:52Z" finished-at="2019-07-29T15:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TripToPlan -->
+        <test-method status="PASS" signature="propertyFileload()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="propertyFileload" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:52Z" finished-at="2019-07-29T15:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyFileload -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-29T15:06:57Z" finished-at="2019-07-29T15:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TripToPlan status=SUCCESS method=CorridorFeatures.TripToPlan()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="propertyFileload()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="propertyFileload" is-config="true" duration-ms="1" started-at="2019-07-29T15:06:57Z" finished-at="2019-07-29T15:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyFileload -->
+        <test-method status="PASS" signature="phoneBook()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="phoneBook" duration-ms="12779" started-at="2019-07-29T15:06:57Z" finished-at="2019-07-29T15:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneBook -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-29T15:07:10Z" finished-at="2019-07-29T15:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoneBook status=SUCCESS method=CorridorFeatures.phoneBook()[pri:0, instance:com.imaginea.corridortaskJen.CorridorFeatures@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.imaginea.corridortaskJen.CorridorFeatures -->
+    </test> <!-- faceBook -->
+  </suite> <!-- generic -->
+</testng-results>
